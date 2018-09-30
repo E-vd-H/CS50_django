@@ -6,4 +6,5 @@ install:
   - pip install -r airline3/requirements.txt
 # command to run tests
 script:
-  - python3 airline3/manage.py test 
+  - cd airline3
+  - python3 manage.py test 
