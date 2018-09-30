@@ -3,7 +3,7 @@ python:
   - "3.6"
 # command to install dependencies
 install:
-  - pip install -r airline2/requirements.txt
+  - pip install -r airline3/requirements.txt
 # command to run tests
 script:
-  - python3 airline2/manage.py test 
+  - python3 airline3/manage.py test 
